@@ -1,0 +1,30 @@
+
+
+void main() {
+
+String ageString = "12" ;
+  print(ageString.runtimeType);
+  
+  //oner to integer
+  int ageInt = int.parse(ageString);
+  print(ageInt.runtimeType);
+  
+  //int to string
+  int myAge =  13;
+  String myAgeString = myAge.toString();
+  print(myAgeString);
+  
+  String heightString = "120.55";
+    //string to double
+  print(double.parse(heightString).runtimeType);
+  
+  //boolean to string
+  bool eassy1 = true ;
+  String eassy1String = eassy1.toString();
+  print(eassy1String.runtimeType);
+  
+  
+  
+  
+  
+}
