@@ -1,0 +1,16 @@
+
+
+void main() {
+
+//intalization
+  
+  int a =190;
+  String b ="Senu";
+
+//Assignment
+a = 200;
+print(a);  
+  
+b = "Flutter!";
+print(b);  
+}
