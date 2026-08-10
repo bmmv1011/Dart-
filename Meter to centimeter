@@ -1,0 +1,11 @@
+void main() {
+  // Meter to centimeter
+  double measurementInMeters = 10;
+
+  const int meterToCentimeters = 100;
+
+  double measurementInCentimeters =
+      measurementInMeters * meterToCentimeters;
+
+  print("$measurementInMeters meters is equal to $measurementInCentimeters centimeters");
+}
