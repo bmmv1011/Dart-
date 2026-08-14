@@ -1,0 +1,18 @@
+void main() {
+  dynamic a = 120;
+  print(a.runtimeType);
+
+  //assign a string
+  a = "Ranil";
+  print(a.runtimeType);
+
+  //assign bool
+  a = false;
+  print(a.runtimeType);
+  
+  
+   a = DateTime.now();
+  print(a.runtimeType);
+  
+  
+}
