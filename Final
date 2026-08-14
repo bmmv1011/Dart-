@@ -1,0 +1,7 @@
+void main() {
+ 
+  final video = "Hello Flutter!";
+  print( video);
+  
+   video="dart for You";
+}
